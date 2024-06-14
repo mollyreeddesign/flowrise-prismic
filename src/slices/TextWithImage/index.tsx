@@ -40,7 +40,7 @@ const TextWithImage = ({ slice }: TextWithImageProps): JSX.Element => {
           field={slice.primary.image}
           className={clsx(
             "rounded-lg",
-            slice.variation === "imageRight" && "md:order-2 bg-stone-700"
+            slice.variation === "imageRight" && "md:order-2"
           )}
         />
         <div className="grid gap-4">
